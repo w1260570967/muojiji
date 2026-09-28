@@ -1,0 +1,1 @@
+[{"mainCurrency":"CNY","rateOverrides":{},"recurring":[{"id":"rec_seed_4102444800000","accountType":"char","accountId":"4102444800000","direction":"income","amount":1050,"currency":"CNY","dayOfMonth":1,"label":"软糯糯","source":"salary","category":"salary"}],"lastRecurringRun":"2026-09-28","seededChars":{"4102444800000":"CNY"},"userId":"uid_1790557581773_6st62lbo1"}]
