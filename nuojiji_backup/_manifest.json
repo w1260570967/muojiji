@@ -1,6 +1,6 @@
 {
   "version": 6,
-  "timestamp": 1790616239200,
+  "timestamp": 1790616244678,
   "appVersion": "auto-backup",
   "tables": [
     "characters",
@@ -115,7 +115,7 @@
   ],
   "chunkedTables": {
     "imageStore": 9,
-    "ttsAudio": 21,
+    "ttsAudio": 22,
     "messages": 3
   },
   "completedTables": {
