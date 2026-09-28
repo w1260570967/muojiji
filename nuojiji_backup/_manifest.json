@@ -1,7 +1,7 @@
 {
   "version": 6,
-  "timestamp": 1790565745443,
-  "appVersion": "6.9.87 (2026.09.27)",
+  "timestamp": 1790565751848,
+  "appVersion": "auto-backup",
   "tables": [
     "characters",
     "friendRequests",
@@ -188,15 +188,8 @@
     "homelandState": true,
     "fontStore": true,
     "radioData": true,
-    "novelBooks": true,
-    "novelChapters": true,
-    "novelVolumes": true,
-    "coReadBooks": true,
-    "coReadChapters": true,
-    "coReadSessions": true,
-    "coReadComments": true,
-    "rowFieldItems": true,
-    "coReadQuotes": true
+    "novelBooks": true
   },
+  "source": "auto",
   "inProgress": true
 }
