@@ -1,6 +1,6 @@
 {
   "version": 6,
-  "timestamp": 1790566245596,
+  "timestamp": 1790566251896,
   "appVersion": "6.9.87 (2026.09.27)",
   "tables": [
     "characters",
@@ -202,7 +202,9 @@
     "studyQuizzes": true,
     "studyGoals": true,
     "studyCards": true,
-    "walletTransactions": true
+    "walletTransactions": true,
+    "walletData": true,
+    "shopOrders": true
   },
   "inProgress": true
 }
