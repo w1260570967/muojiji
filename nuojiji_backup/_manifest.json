@@ -1,6 +1,6 @@
 {
   "version": 6,
-  "timestamp": 1790792181231,
+  "timestamp": 1790792187085,
   "appVersion": "6.9.87 (2026.09.27)",
   "tables": [
     "characters",
@@ -117,13 +117,12 @@
     "imageStore": 20,
     "ttsAudio": 64,
     "messages": 9,
-    "stickers": 1
+    "stickers": 2
   },
   "completedTables": {
     "characters": true,
     "friendRequests": true,
     "worldBooks": true,
-    "stickers": true,
     "kaomojis": true,
     "users": true,
     "userState": true,
