@@ -1,6 +1,6 @@
 {
   "version": 7,
-  "timestamp": 1793706338689,
+  "timestamp": 1793718645681,
   "appVersion": "",
   "source": "auto",
   "device": "app-android",
@@ -20,7 +20,6 @@
     "callLogs",
     "roleStickers",
     "tmSessions",
-    "tmStories",
     "multiSceneSessions",
     "multiSceneStories",
     "multiSceneCastSettings",
@@ -65,7 +64,6 @@
     "pomodoroData",
     "regexRules",
     "mcpServers",
-    "thinkingStore",
     "commitments",
     "characterLifeState",
     "chikanPhoneSkins",
@@ -112,24 +110,26 @@
     "avatarFrames",
     "assets",
     "pluginAssets",
+    "pluginData",
     "chatSettingsPresets",
     "charBondSpaces",
     "charLifePlans",
     "_migration",
     "globalSettings",
     "userPosts",
+    "tmStories",
     "xinshengRounds",
     "imageStore",
     "customGameSaves",
-    "rowFieldItems",
-    "pluginData"
+    "thinkingStore",
+    "rowFieldItems"
   ],
   "chunkedTables": {
     "messages": 49,
     "ttsAudio": 666,
-    "thinkingStore": 2,
     "fontStore": 7,
     "imageStore": 172,
+    "thinkingStore": 2,
     "rowFieldItems": 2
   },
   "completedTables": {
@@ -147,7 +147,6 @@
     "callLogs": true,
     "roleStickers": true,
     "tmSessions": true,
-    "tmStories": true,
     "multiSceneSessions": true,
     "multiSceneStories": true,
     "multiSceneCastSettings": true,
@@ -236,20 +235,21 @@
     "avatarFrames": true,
     "assets": true,
     "pluginAssets": true,
+    "pluginData": true,
     "chatSettingsPresets": true,
     "charBondSpaces": true,
     "charLifePlans": true,
     "_migration": true
   },
   "skippedTables": [
-    "__localStorage",
     "globalSettings",
     "userPosts",
+    "tmStories",
     "xinshengRounds",
     "imageStore",
     "customGameSaves",
-    "rowFieldItems",
-    "pluginData"
+    "thinkingStore",
+    "rowFieldItems"
   ],
   "complete": false,
   "lastCompleteAt": 1793591115522,
@@ -286,10 +286,15 @@
       "gz": false,
       "b": "0f981d679753412320ff3203e6449e9cdc0253bf"
     },
-    "userState.json": {
-      "h": "g:686c959016ec663e345c3ac4eb3a36543b94abf5",
+    "_localStorage.json": {
+      "h": "g:146964bd3d6ed98bbf91b10e6e44619ad5904c0a",
       "gz": false,
-      "b": "686c959016ec663e345c3ac4eb3a36543b94abf5"
+      "b": "146964bd3d6ed98bbf91b10e6e44619ad5904c0a"
+    },
+    "userState.json": {
+      "h": "g:f55f8a8eaebb24425bfaac23b355e269e573557c",
+      "gz": false,
+      "b": "f55f8a8eaebb24425bfaac23b355e269e573557c"
     },
     "chatSettings.json": {
       "h": "g:ef1fc332161f8b879b7fec42959af955a3749054",
@@ -536,20 +541,20 @@
       "gz": false,
       "b": "1bb06ad8ee7929ce0c8e0c32d73bc7fcc20d880b"
     },
-    "favorites.json": {
-      "h": "g:c69ec8d0a72cc48c9507e4c6eb4bdf0f2a177251",
-      "gz": false,
-      "b": "c69ec8d0a72cc48c9507e4c6eb4bdf0f2a177251"
-    },
     "messages_chunk_48.json": {
       "h": "g:09d677e5cab4dad21b053fe6d76eea6ad740125c",
       "gz": false,
       "b": "09d677e5cab4dad21b053fe6d76eea6ad740125c"
     },
-    "memory.json": {
-      "h": "g:bbec9656edbd94d6d245f0156733db1972b8b1ac",
+    "favorites.json": {
+      "h": "g:c69ec8d0a72cc48c9507e4c6eb4bdf0f2a177251",
       "gz": false,
-      "b": "bbec9656edbd94d6d245f0156733db1972b8b1ac"
+      "b": "c69ec8d0a72cc48c9507e4c6eb4bdf0f2a177251"
+    },
+    "summaryEntries.json": {
+      "h": "g:12313c2284130405ecdb6822d2e1ef3e8fd6a045",
+      "gz": false,
+      "b": "12313c2284130405ecdb6822d2e1ef3e8fd6a045"
     },
     "callLogs.json": {
       "h": "g:3a15976d323b4a3620fe2b64b88fc730bb05f065",
@@ -561,15 +566,15 @@
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
-    "tmSessions.json": {
-      "h": "g:771f73b19827c0b92d70b7f0ec33a6d74d4f3bb9",
+    "memory.json": {
+      "h": "g:9cdefdcf705adb8730e2d69a4049ee93843afad1",
       "gz": false,
-      "b": "771f73b19827c0b92d70b7f0ec33a6d74d4f3bb9"
+      "b": "9cdefdcf705adb8730e2d69a4049ee93843afad1"
     },
-    "tmStories.json": {
-      "h": "g:40724067853c07c54fff2098ed2c1e4ca316f487",
+    "tmSessions.json": {
+      "h": "g:1ab72b37e254e82965184167756468d5a19bd649",
       "gz": false,
-      "b": "40724067853c07c54fff2098ed2c1e4ca316f487"
+      "b": "1ab72b37e254e82965184167756468d5a19bd649"
     },
     "multiSceneSessions.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -3981,11 +3986,6 @@
       "gz": false,
       "b": "f059d18c1095953d36b3769bd0dd2cba95502d73"
     },
-    "summaryEntries.json": {
-      "h": "g:12313c2284130405ecdb6822d2e1ef3e8fd6a045",
-      "gz": false,
-      "b": "12313c2284130405ecdb6822d2e1ef3e8fd6a045"
-    },
     "xinsheng.json": {
       "h": "g:ddcbd4db7a00136517b1cbdb61f5db237ae0558b",
       "gz": false,
@@ -3997,9 +3997,9 @@
       "b": "76bb3fd5980f15f7bfcb210ad3c165d31b887d15"
     },
     "couplesData.json": {
-      "h": "g:fda7571b7158f6491c336ba051f9167fe2a842a8",
+      "h": "g:7e4eaf8b762bb52b0e5beb3ebe22548995ceeac5",
       "gz": false,
-      "b": "fda7571b7158f6491c336ba051f9167fe2a842a8"
+      "b": "7e4eaf8b762bb52b0e5beb3ebe22548995ceeac5"
     },
     "stickerStore.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -4121,16 +4121,6 @@
       "gz": false,
       "b": "201b90291735c675493e2bbfec944c703e945c3b"
     },
-    "thinkingStore_chunk_0.json": {
-      "h": "g:894513bea2d11853c3d44a232aa35f1a01a26675",
-      "gz": false,
-      "b": "894513bea2d11853c3d44a232aa35f1a01a26675"
-    },
-    "thinkingStore_chunk_1.json": {
-      "h": "g:f995212bc02c0d98166955b36a1fe7d354037156",
-      "gz": false,
-      "b": "f995212bc02c0d98166955b36a1fe7d354037156"
-    },
     "commitments.json": {
       "h": "g:b66d58d1e7c550920c9e9e66a14a1d0b20d597a4",
       "gz": false,
@@ -4232,9 +4222,9 @@
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
     "characterLifeState.json": {
-      "h": "g:5290b7da2de5e892db3350e3294609d3d9189c8b",
+      "h": "g:770966e0066a4d0822c1f6b1c5672e73f4b7aaea",
       "gz": false,
-      "b": "5290b7da2de5e892db3350e3294609d3d9189c8b"
+      "b": "770966e0066a4d0822c1f6b1c5672e73f4b7aaea"
     },
     "coReadQuotes.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
@@ -4366,6 +4356,11 @@
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
     },
+    "chatVariables.json": {
+      "h": "g:a7fc54dce80e82ff4d06b34e69741bd13def85e4",
+      "gz": false,
+      "b": "a7fc54dce80e82ff4d06b34e69741bd13def85e4"
+    },
     "plugins.json": {
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
@@ -4385,11 +4380,6 @@
       "h": "g:0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc",
       "gz": false,
       "b": "0637a088a01e8ddab3bf3fa98dbe804cbde1a0dc"
-    },
-    "chatVariables.json": {
-      "h": "g:a7fc54dce80e82ff4d06b34e69741bd13def85e4",
-      "gz": false,
-      "b": "a7fc54dce80e82ff4d06b34e69741bd13def85e4"
     },
     "chatSettingsPresets.json": {
       "h": "g:86d6a253312a6c9501adae5b1fa468818a8edbe8",
@@ -4411,10 +4401,25 @@
       "gz": false,
       "b": "f462945e8a510b6ed7e4356bc9efa0b352515589"
     },
-    "_localStorage.json": {
-      "h": "g:c6beae7c2bf41c1c12a7862dbe6b3f80b6bba2ad",
+    "pluginData.json": {
+      "h": "g:8570b752ef5743f19554ec986ab3947e4717e562",
       "gz": false,
-      "b": "c6beae7c2bf41c1c12a7862dbe6b3f80b6bba2ad"
+      "b": "8570b752ef5743f19554ec986ab3947e4717e562"
+    },
+    "tmStories.json": {
+      "h": "g:40724067853c07c54fff2098ed2c1e4ca316f487",
+      "gz": false,
+      "b": "40724067853c07c54fff2098ed2c1e4ca316f487"
+    },
+    "thinkingStore_chunk_0.json": {
+      "h": "g:894513bea2d11853c3d44a232aa35f1a01a26675",
+      "gz": false,
+      "b": "894513bea2d11853c3d44a232aa35f1a01a26675"
+    },
+    "thinkingStore_chunk_1.json": {
+      "h": "g:f995212bc02c0d98166955b36a1fe7d354037156",
+      "gz": false,
+      "b": "f995212bc02c0d98166955b36a1fe7d354037156"
     },
     "globalSettings.json": {
       "h": "g:cc496ecd1b81101120aba73ffd4869c06b5bbdf6",
@@ -5305,11 +5310,6 @@
       "h": "g:4873b6b46c464e750eefec48c747b96ffa559fd3",
       "gz": false,
       "b": "4873b6b46c464e750eefec48c747b96ffa559fd3"
-    },
-    "pluginData.json": {
-      "h": "g:4d8085f544fb67641507abca44cd2fef4063ab39",
-      "gz": false,
-      "b": "4d8085f544fb67641507abca44cd2fef4063ab39"
     }
   }
 }
